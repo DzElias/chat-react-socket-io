@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server/index.js",
     "dev": "nodemon server/index.js",
-    "build": "npm run --prefix client build"
+    "build": "npm --prefix client install && npm run --prefix client build"
   },
   "dependencies": {
     "cors": "^2.8.5",
